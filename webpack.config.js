@@ -13,7 +13,7 @@ module.exports = {
   devServer: {               
     contentBase: './dist'    
   },
-  plugins: [
+  plugins: [ 
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: 'Shape Tracker',
